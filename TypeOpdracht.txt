@@ -1,0 +1,16 @@
+public class PlayerContext                                         // a class is like an object constructor, or a "blueprint" for creating objects.
+{
+    public Room room;                                              // 
+    public PlayerSprite player;                                    // sprite
+    internal bool noDoor = false;                                  // boolean
+    internal int camX;                                             // integer (whole number)
+    internal int camY;                                             // integer
+    internal readonly KeyBind[] keysdown = new KeyBind[5];         // array of KeyBind
+    internal int lastKeyDown;                                      // integer
+    internal Bitmap buffer;                                        // Bitmap is an object used to work with images defined by pixel data
+    internal Graphics g;                                           // the Graphics class provides methods for drawing objects to the display device
+    internal int totalGoldPicked;                                  // integer
+    internal readonly int index;                                   // integer
+    internal string name;                                          // string
+    internal float runTime = 3;                                    // float (number with decimal)
+}
